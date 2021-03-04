@@ -2,6 +2,10 @@
   border: 5px solid lightblue;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 40px;
+  background-image: url(https://raw.githubusercontent.com/mdn/css-examples/master/learn/tasks/backgrounds/star.png),
+    url(https://raw.githubusercontent.com/mdn/css-examples/master/learn/tasks/backgrounds/star.png);
+  background-position: center left, right;
+  background-repeat: no-repeat, repeat-y;
 }
 
 h2 {
